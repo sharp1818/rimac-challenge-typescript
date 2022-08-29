@@ -21,7 +21,7 @@ function Counter() {
         }}>
         -
       </button>
-      <div>
+      <div className="display-counter">
         <Controller
           control={control}
           name="amount"

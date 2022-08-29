@@ -15,21 +15,14 @@
     font-weight: bold;
     font-size: 20px;
   }
-  > div .display-counter {
-    outline: none;
-    border: none;
-    text-align: center;
-    color: #494f66;
-    max-width: 54px;
-    font-size: 16px;
+  .display-counter{
+    width: 74px;
   }
-  > div .ant-input-affix-wrapper {
+  .display-counter .ant-input-affix-wrapper {
     outline: none;
     border: none;
     text-align: center;
     color: #494f66;
-    max-width: 100px;
-    margin-left: 28px;
     font-size: 16px;
     &:focus {
       border: none;

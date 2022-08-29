@@ -12,7 +12,7 @@ function InsuranceSection() {
     <div className="insurance-container">
       <div className="status-box">
         <ArrowLeftOutlined onClick={() => navigate('/arma-tu-plan/step_1')} />
-        <div>{width <= 360 ? 'PASO 2 DE 2' : 'VOLVER'}</div>
+        <div>{width <= 716 ? 'PASO 2 DE 2' : 'VOLVER'}</div>
         <div className="purple-line" />
       </div>
       <div className="info-box">

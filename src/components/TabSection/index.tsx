@@ -6,7 +6,7 @@ function TabSection() {
   const { TabPane } = Tabs;
 
   return (
-    <div>
+    <div className="tab-section-container">
       <Tabs className="tab-section" defaultActiveKey="1">
         <TabPane
           tab={

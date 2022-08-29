@@ -1,5 +1,5 @@
 .create-plan-component-layout{
-    @media only screen and (min-width: 361px) {
+    @media only screen and (min-width: 716px) {
         display: grid;
         justify-items: center;
         grid-template-columns: 0.5fr 1fr 0.5fr;
@@ -9,7 +9,7 @@
 
 .create-plan-component-layout > .display-step-component {
     display: none;
-    @media only screen and (min-width: 361px) {
+    @media only screen and (min-width: 716px) {
         display: flex;
         background-color: #F7F8FC;
         width: 100%;
@@ -21,4 +21,12 @@
 .create-plan-component-layout > .section-mid {
     display: grid;
     justify-items: center;
+    grid-template-rows: auto 1fr;
+    @media only screen and (min-width: 716px) {
+        // display: inline-block;
+        padding: 0px 32px;
+    }
+    @media only screen and (min-width: 911px) {
+        width: 400px;
+    }   
 }
