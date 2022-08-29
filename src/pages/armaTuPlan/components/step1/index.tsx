@@ -14,7 +14,6 @@ function Step1() {
         if (res.status >= 200 && res.status < 400) {
           navigate('/arma-tu-plan/step_2');
         }
-        console.log(res);
       });
     } catch (error) {
       // console.log(error);

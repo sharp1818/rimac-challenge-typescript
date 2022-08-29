@@ -5,7 +5,9 @@ import './Layout.scss';
 function Layout() {
   return (
     <>
-      <Header />
+      <div className="layout-header-container">
+        <Header />
+      </div>
       <div className="border-top">
         <Outlet />
       </div>

@@ -8,7 +8,7 @@ function Header() {
   return (
     <header className="header-container">
       <img src={GetHeaderImage('LOGO_RIMAC')} alt="Logo_Rimac" />
-      {width <= 360 ? (
+      {width <= 460 ? (
         <div className="call-us-mobile">
           <PhoneFilled rotate={90} style={{ fontSize: '16px', color: ' #6769FF' }} />
           <span>Llámanos</span>

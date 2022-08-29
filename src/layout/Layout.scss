@@ -1,3 +1,12 @@
+.layout-header-container{
+    position: sticky;
+    border-bottom: 1px solid #E4E8F7;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
 .border-top{
-    border-top: 1px solid #E4E8F7;
+    // border-top: 1px solid #E4E8F7;
 }

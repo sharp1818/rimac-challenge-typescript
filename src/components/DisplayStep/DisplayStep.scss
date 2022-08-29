@@ -1,5 +1,11 @@
 .display-step-container{
-    >div:first-child {
+    .step-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 6px;
+    }
+    .step-container .step {
         border: 1px solid #C5CBE0;
         color: #C5CBE0;
         display: flex;
@@ -9,7 +15,7 @@
         height: 40px;
         border-radius: 50%;
     }
-    >div:last-child {
+    .step-container .current-step {
         border: 1px solid #6F7DFF;
         color: #fff;
         background-color: #6F7DFF;
@@ -20,7 +26,19 @@
         height: 40px;
         border-radius: 50%;
     }
-    hr {
+
+    .step-container .step-text{
+        color: #A3ABCC;
+    }
+    .vertical-line {
+        width: 100%;
+        height: 34px;
+        position: relative;
+    }
+    .vertical-line > hr {
+        position: absolute;
+        left: 20px;
+        top: 0px;
         background-color: #C5CBE0;
         color: #C5CBE0;
         outline: none;

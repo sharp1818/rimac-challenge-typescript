@@ -74,6 +74,7 @@
 }
 
 .insurance-container > .info-box > .car-info-box {
+  position: relative;
   background-color: #fff;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -104,7 +105,7 @@
   }
   >.background-icon-boy {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: auto 100%;
     background-image: url('../../images/CreatePlan/ICON_BOY.png');
   }
